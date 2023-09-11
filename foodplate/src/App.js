@@ -29,18 +29,6 @@ function App() {
         </div>
         <Footer />
       </Router>
-
-{/* 
-      <Router>
-      <Navbar title="TextUtils" aboutText={"About"} mode={mode} toggelMode={toggelMode}/>
-      <Alert alert={alert}/>
-      <div className="container my-3">
-      <Routes>
-        <Route exact path="/" element={<TextForm showAlert = {showAlert} heading="Try TexUtils - Word counter, Character counter, Remove extra spaces" mode={mode} toggelMode={toggelMode}/>}/>
-        <Route exact path="/about" element={<About mode={mode} />}/>
-        </Routes>
-      </div>
-    </Router> */}
     </>
   );
 }
